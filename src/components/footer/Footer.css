@@ -1,0 +1,59 @@
+.gradient-bg{
+    background-image: linear-gradient(to right, #583084 58%, #EC7162);
+  }
+.txt{
+  color:white;
+  font-family: 'Audiowide',cursive;
+  font-size: 20px;
+  text-align: left;
+  
+}
+.txt-style{
+  font-family:'Alegreya Sans SC';
+  font-weight:500;
+  color:white;
+  font-size: 12px;
+  line-height :0.5em;
+  text-align: left;
+}
+.display{
+  text-align: left;
+}
+
+  .form-control::-webkit-input-placeholder {
+  color:white;
+  font-weight: 400;
+  font-size: 14px;
+
+
+  }
+  .form-control{
+   height: 40px;
+   width: 180px;
+  }
+  .btn{
+    height: 40px;
+    width: 80px;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    /* color:linear-gradient(to right, #583084 58%, #EC7162) */
+  }
+  .pos1{
+   position: relative;
+  }
+  .pos2{
+    position: absolute;
+    top: 0px;
+    left: 48%;
+  }
+ .button1 p{
+  background-image: linear-gradient(to right, #583084 8%, #EC7162);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+ }
+ .radius-style{
+  border-radius: 18px;
+ }

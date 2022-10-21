@@ -1,0 +1,48 @@
+.gradient-background{
+    background-image: linear-gradient(to right, #583084 58%, #EC7162);
+}
+.font{
+    color:white;
+    font-family: 'Audiowide';
+}
+.font:hover{
+    color:#EC7162;   
+}
+.links{
+    color:white;   
+    font-family: 'Audiowide',cursive;
+    text-decoration:none; 
+}
+.links:hover{
+    color:#EC7162;   
+    font-family: 'Audiowide',cursive;
+    text-decoration:none; 
+}
+.Link:active{
+ color: rgb(119, 119, 130);
+     
+}
+.link_btn{
+    color:white;
+    text-decoration:none; 
+    
+}
+.link_btn:hover{
+    color:white;
+    background-color:#EC7162 ;
+    border-radius: 5px;
+    padding:10px, 14px;
+    box-shadow: 3px 3px #d9412d
+}
+.link_btn:active{
+        background-color: #EC7162;
+        color:  rgb(119, 119, 130);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      
+}
+.nav{
+    padding-left: 0%;
+}
+
