@@ -23,7 +23,7 @@ export const Home = () => {
         </div>
     
       </section>
-      <section className="bg-img2">
+      {/* <section className="bg-img2">
       
         <div className="container-fluid">
         <div className="row bg2">
@@ -36,7 +36,7 @@ export const Home = () => {
           <div className="col-md 6 rectangle"></div>
         </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
