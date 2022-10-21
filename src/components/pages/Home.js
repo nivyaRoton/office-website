@@ -5,7 +5,6 @@ export const Home = () => {
   return (
     <>
       <section className="bg-img">
-
         <div className="bg">
           <p className="p1"> Design </p>
           <p className="p2"> The Future</p>
@@ -23,8 +22,7 @@ export const Home = () => {
         </div>
     
       </section>
-      {/* <section className="bg-img2">
-      
+      <section className="bg-img2">
         <div className="container-fluid">
         <div className="row bg2">
           <div className="col-md 6">
@@ -33,10 +31,12 @@ export const Home = () => {
               your Business?
             </p>
           </div>
-          <div className="col-md 6 rectangle"></div>
+          <div className="col-md 6 rectangle">
+            <div>Developer</div>
+          </div>
         </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };
