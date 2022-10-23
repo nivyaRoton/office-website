@@ -1,22 +1,26 @@
 .gradient-background{
-    background-image: linear-gradient(to right, #583084 58%, #EC7162);
+    background-color: transparent;
+    margin-top: 0%;
 }
 .font{
     color:white;
-    font-family: 'Audiowide';
+    font-family: 'Red Hat Display';
 }
 .font:hover{
     color:#EC7162;   
 }
 .links{
     color:white;   
-    font-family: 'Audiowide',cursive;
+    font-family: 'Roboto',sans-serif;
+  
+    font-size: 16px;
     text-decoration:none; 
 }
 .links:hover{
-    color:#EC7162;   
-    font-family: 'Audiowide',cursive;
-    text-decoration:none; 
+    color:white;   
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    text-decoration: underline; 
 }
 .Link:active{
  color: rgb(119, 119, 130);
@@ -42,7 +46,7 @@
         display: inline-block;
       
 }
-.nav{
-    padding-left: 0%;
+.nav-tab{
+    height: 60%;
 }
 

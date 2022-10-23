@@ -8,40 +8,40 @@ import pic from '../images/logo.png';
 const NavBar = () => {
   return (
     <>
-        <Navbar expand="lg gradient-background p-3">
-          <Container>
+    
+        <Navbar expand="lg gradient-background nav-tab p-2">
+          <div className="d-flex ms-3">
             <Navbar.Brand to="/">
-           <img src={pic} alt="logo" width="40%"/>
+           <img src={pic} alt="logo" width="30%"/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ms-auto " style={{paddingRight:"180px"}}>
+              <Nav className="ms-auto">
                 <Link to="/" className="px-3 links">
                   Home
                 </Link>
-                <Link to="/service" className="px-3 links">
+                <Link to="/about" className="px-4 links">
+                  About
+                </Link>
+                <Link to="/service" className="px-4 links">
                   Service
                 </Link>
-                <Link to="/company" className="px-3 links">
-                  Company
+                <Link to="/project" className="px-4 links">
+                  Project
                 </Link>
-                <Link to="/blog" className="px-3 links">
-                  Blog
+                <Link to="/blogs" className="px-4 links">
+                  Blogs
                 </Link>
-                <Link to="/contact" className="px-3 links">
+                <Link to="/career" className="px-4 links">
+                Career
+                </Link>
+                <Link to="/contact" className="px-4 links">
                   Contact
                 </Link>
               </Nav>
-              <div className="links">
-                <Link to="/login" className="px-3 link_btn">
-                  Blog
-                </Link>
-                <Link to="/signup" className="px-3 link_btn">
-                  Contact
-                </Link>
-              </div>
+              
             </Navbar.Collapse>
-          </Container>
+          </div>
         </Navbar>
       <Outlet  />
     </>

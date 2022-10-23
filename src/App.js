@@ -1,7 +1,7 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import './App.css';
-import NavBar from "./components/header/NavBar";
+
 import { Company } from "./components/pages/Company";
 import { Contact } from "./components/pages/Contact";
 import { Home } from "./components/pages/Home";
@@ -12,11 +12,10 @@ import { WebFooter } from "./components/footer/WebFooter";
 
 function App() {
   return (
-    <div className="App">
+    <div>
    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<NavBar />}>
-          <Route index element={<Home />} />
+        <Route path="/" element={<Home />}>
           <Route path="blog" element={<Blog/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="service" element={<Service/>} />
