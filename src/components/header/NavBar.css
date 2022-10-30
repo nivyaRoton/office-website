@@ -4,7 +4,7 @@
 }
 .font{
     color:white;
-    font-family: 'Red Hat Display';
+    font-family: 'Roboto',sans-serif;
 }
 .font:hover{
     color:#EC7162;   
@@ -13,14 +13,15 @@
     color:white;   
     font-family: 'Roboto',sans-serif;
   
-    font-size: 16px;
+    font-size: 18px;
     text-decoration:none; 
 }
 .links:hover{
     color:white;   
     font-family: 'Roboto',sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: underline; 
+    text-decoration-thickness: 3px;
 }
 .Link:active{
  color: rgb(119, 119, 130);
