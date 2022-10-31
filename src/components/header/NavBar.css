@@ -2,23 +2,16 @@
     background-color: transparent;
     margin-top: 0%;
 }
-.font{
-    color:white;
-    font-family: 'Roboto',sans-serif;
-}
-.font:hover{
-    color:#EC7162;   
-}
+
 .links{
     color:white;   
-    font-family: 'Roboto',sans-serif;
-  
-    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
     text-decoration:none; 
 }
 .links:hover{
     color:white;   
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 18px;
     text-decoration: underline; 
     text-decoration-thickness: 3px;

@@ -1,20 +1,29 @@
 .bg{
-    font-family: 'Alegreya Sans SC', sans-serif;
-    line-height: 0.7;
-    padding-left: 120px;
-    padding-top: 150px;
+ 
+    line-height: 1.5;
+    padding-left: 80px;
+    padding-top: 120px;
+}
+.home{
+  font-family: 'Poppins', sans-serif;
 }
  .p1{
    color:white;
-   font-size: 50px;
-    font-weight:600;
-
+   font-size: 40px;
+    font-weight:bold;
 }
 .p2{
     color:#EC7162;
-    font-size: 85px;
+    font-size: 40px;
     font-weight: bold;
 
+}
+.subheading{
+  font-size: "28px";
+  line-height: "48px";
+  font-weight: 700;
+  color: white;
+  padding-bottom: 8px;
 }
 .bg-img{
     background-image: url('../images/Frame 1.jpg');
@@ -46,28 +55,6 @@
     background-color: #EC7162;
     transition: .3s all ease-in-out;
 }
-    
-  /* mobile */
-  /* @media screen and (min-device-width: 480px) and (max-device-width: 768px) { 
-    .bg {
-        background-image: url('../images/LKLK-01-01.png');
-        width: 100%;
-        height: 700px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-  } */
-  /* .bg-img2{
-    background-image: url('../images/d-02.jpg');
-    width: 100%;
-    height: 1000px;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  } */
-
 .rectangle {
  
   width: 500px;
@@ -82,9 +69,9 @@
   padding-top: 15px;
   font-weight: bold;
   color:#45108A;
-  font-size: 35px;
-  font-family: 'Roboto',sans-serif;
+  font-size: 30px;
 }
+
 .rect{
   margin-right: 0;
   margin-top: 50px;
@@ -94,18 +81,14 @@
   overflow: hidden;
 
 }
-.section4{
-  
-  margin-top:18px;
-  font-family: 'Roboto',sans-serif;
-  text-align: center;
-  
-}
+
 .txt{
     color: #EC7162;
 }
 .p3{
-  font-size: 18px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
 }
 .box{
   width:240px;
@@ -118,7 +101,9 @@
   padding: 20px;
 }
 .box-text{
-  padding-top: 50px;
+  padding-top: 65px;
+  font-weight: 500;
+  font-size: 14px;
 }
 .icon{
   position: absolute;
@@ -131,29 +116,29 @@
   right: 38%;
 }
 .security-btn{
-  padding: 16px 107px 20px 30px;
+  padding: 12px 94px 20px 30px;
   border-radius: 20px;
-  box-shadow: 4px 10px inset #885ebe;
+  box-shadow: 1px 5px inset #885ebe;
   background-color: #EC7162;
   position: absolute;
   left: 0%;
-  top: 73%;
+  top: 66%;
 }
-
-
-.section5{
+.section4{
   margin-top:18px;
-  font-family: 'Roboto',sans-serif;
   text-align: center;
 }
 .heading{
   color:#45108A;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .content{
   color:#EC7162;
   font-size: 12px;
   line-height:2px ;
+  font-weight: 700;
+
 }
 .bottom{
   border-bottom: 1px solid #EC7162;
