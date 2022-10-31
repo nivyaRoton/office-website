@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 import NavBar from "../header/NavBar";
 import Business from "../images/Businessman.png";
 import rect1 from "../images/Rectangle 8.png";
@@ -8,6 +9,7 @@ import rect4 from "../images/Rectangle 7.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import vector from "../images/Vector.png";
 import "../pages/Home.css";
 const images = [
   {
@@ -36,6 +38,66 @@ const images = [
   },
 ];
 
+const service1 = [
+  {
+    title: "WEB DEVELOPMENT",
+    body: "For web development, proficient developers",
+    body2: "are there to guide the people.",
+  },
+  {
+    title: "APP DEVELOPMENT",
+    body: "Smartphones are helping people with different ",
+    body2: "applications.",
+  },
+  {
+    title: "DIGITAL MARKETING",
+    body: "The fastest growing online practice comes as ",
+    body2: "a boom in digital marketing.",
+  },
+];
+const service2 = [
+  {
+    title: "GRAPHIC DESIGN",
+    body: "For web development, proficient developers",
+    body2: "are there to guide the people.",
+  },
+  {
+    title: "CONTENT WRITING",
+    body: "Smartphones are helping people with different",
+    body2: "applications.",
+  },
+  {
+    title: "BUSINESS DEVELOPMENT",
+    body: "The fastest growing online practice comes as a boom in digital marketing.",
+    body2: "a boom in digital marketing.",
+  },
+];
+const box = [
+  {
+    id: 1,
+    body: "Pleasure rationally encounter are extremely painful anyone who loves or pursues.",
+  },
+  {
+    id: 2,
+    body: "Pleasure rationally encounter are extremely painful anyone who loves or pursues.",
+  },
+  {
+    id: 3,
+    body: "Pleasure rationally encounter are extremely painful anyone who loves or pursues.",
+  },
+];
+const features=[{
+  id:1,
+  title:"Request a Callback",
+  body:"Chossing an accountant that Matchs your needs"
+
+},
+{
+  id:2,
+  title:"Initial Consultation",
+  body:"Read the reviews from some of satisfied clients"
+
+}]
 export const Home = () => {
   return (
     <div className="home">
@@ -149,6 +211,122 @@ boards, lists, deadlines, calendars.</p>
         </Container>
       </section> 
 
+      <section className="section3  my-5">
+        <Container>
+          <Row>
+            <Col md={12}>
+              <div>
+              <h1  className="title">
+                We are<span className="txt"> different</span> because...
+              </h1>
+              </div>
+              <div>
+              <p className="p3">
+                We are different our we offer Qaulity & Quantity With the Same
+                Zeal
+              </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            {box.map(({ body }) => {
+              return (
+                <>
+                  <Col md={4}>
+                    <div className="box my-5">
+                      <p className="box-text text-center">{body}</p>
+                      <div className="icon"></div>
+                      <Button className="security-btn mt-5">
+                        {" "}
+                        <strong style={{ textAlign: "center" }}>
+                          StrongSecurity
+                        </strong>{" "}
+                      </Button>
+                    </div>
+                  </Col>
+                </>
+              );
+            })}
+          </Row>
+          <Row>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="section4 py-2">
+        <Container>
+          <Row className="text-center">
+            <Col md={12}>
+              <div >              <h1 className="title">
+
+              <span className="txt"> Our Business</span> Provides Valuable
+              <span className="txt">  Services </span>
+               at<br/>
+Any Time in Any Situation
+              </h1>
+              </div>
+              <div>
+              <p className="p3">
+                Pleasure rationally encounter consequences that are
+                <br />
+                painful. Nor again is there anyone who pursues
+              </p>
+              </div>
+            </Col>
+          </Row>
+          <Row className="mt-3">
+            <Col md={4}>
+              {service1.map(({ title, body, body2 }) => {
+                return (
+                  <div className="bottom py-3">
+                    <div>
+                    <h1 className="heading">{title}</h1>
+                    </div>
+                    <div>                    <p className="content">{body}</p>
+                    <p className="content">{body2}</p>
+                    </div>
+
+                  </div>
+                );
+              })}
+            </Col>
+            <Col md={4}>
+              <img src={vector} alt="vector" height="80%" width="80%" />
+            </Col>
+            <Col md={4}>
+              {service2.map(({ title, body, body2 }) => {
+                return (
+                  <div className="bottom py-3">
+                    <div>
+                    <h1 className="heading">{title}</h1>
+                    </div>
+                    <div>
+                    <p className="content">{body}</p>
+                    <p className="content">{body2}</p>
+                    </div>
+                  </div>
+                );
+              })}
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="section5 my-5">
+        <Container>
+          <Row>
+            <Col md={12}>
+              <div>
+                <p className="title">Our<span className="txt"> Features </span></p>
+                <p className="p3">Unlesh your creativety with a visual collabration<br/>
+Platform that enables effective ideation.</p>
+              </div>
+
+            </Col>
+          </Row>
+        </Container>
+
+      </section>
     </div>
   );
 };
